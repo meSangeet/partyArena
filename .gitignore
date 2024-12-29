@@ -1,0 +1,49 @@
+# Node modules
+node_modules/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Dependency directories
+public/
+dist/
+
+# OS generated files
+.DS_Store
+
+# Environment variables
+.env
+.env.*.local
+
+# Build output
+/build/
+.vite/
+
+# Configuration files for editors
+.idea/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# Tailwind CSS generated files (if any)
+*.css.map
+
+# Temporary files
+*.tmp
+*.swp
+*.lock
+
+# Ignore compiled assets
+src/*.js.map
+src/*.css.map
+
+# Exclude backups
+*.bak
+*.backup
+
+# Ignore output of some tools
+coverage/
